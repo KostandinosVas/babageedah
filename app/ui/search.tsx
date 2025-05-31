@@ -14,6 +14,7 @@ const handleSearch = useDebouncedCallback((term) => {
   console.log(`Searching... ${term}`);
  
   const params = new URLSearchParams(searchParams);
+  params.set('page', '1'); // Reset to first page on new search
   if (term) {
     params.set('query', term);
   } else {
