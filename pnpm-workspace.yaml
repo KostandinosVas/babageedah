@@ -1,2 +1,6 @@
+ignoredBuiltDependencies:
+  - bcrypt
+  - bufferutil
+  - utf-8-validate
 onlyBuiltDependencies:
   - bcryptjs
